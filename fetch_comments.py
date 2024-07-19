@@ -4,7 +4,7 @@ import pandas as pd
 # Set up the YouTube API client
 api_service_name = "youtube"
 api_version = "v3"
-api_key = "AIzaSyCuaHidtnZZ5vMsO7J6mh5dqk09puziHAI"  # Replace with your API key
+api_key = "---------------------------------------"  # Replace with your API key
 
 youtube = googleapiclient.discovery.build(api_service_name, api_version, developerKey=api_key)
 
